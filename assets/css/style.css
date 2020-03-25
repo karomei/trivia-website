@@ -11,11 +11,19 @@
 }
 
 /*------------------------------------------Text*/
+h1,h2 {
+    margin-bottom: 4rem;
+    color: rgb(85, 110, 223);
+}
 
 h1 {
     font-size: 6.2rem;
     color: rgb(85, 110, 223);
-    margin-bottom: 4rem;
+    
+}
+
+h2 {
+    font-size: 4.8rem;
 }
 
 /*------------------------------------------Utilities*/
@@ -60,10 +68,12 @@ h1 {
     padding: 1rem 0;
     width: 15rem;
     margin-bottom: 1rem;
+    border: 0.5rem solid;
     text-align: center;
     text-decoration: none;
     color: #fff;
     background-color: orange;
+    border-color: #fff;
 }
 
 .btn:hover {
