@@ -34,8 +34,6 @@ let questions = [
  }
 ];
 
-//-------------------------------------CONSTANTS
-
 const CORRECT_BONUS = 5;
 const MAX_QUESTIONS = 3;
 
@@ -66,6 +64,9 @@ getNewQuestion = () => {
     acceptingAnswer = true;
 };
 
+/**
+ * Feedback for answering the question correctly or not.
+ */
 choices.forEach(choice => {
     choice.addEventListener("click", e =>{
         if(!acceptingAnswer) return;
@@ -74,7 +75,17 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
         
-        getNewQuestion();
+        const outcome = "incorrect";
+            if (selectedAnswer == currentQuestion.answer) {
+                outcome = "correct";
+            }
+        
+        selectedChoice.classList.add(outcome);
+
+        setTimeout( () => {
+            selectedChoice.classList.remove(outcome);
+            getNewQuestion();
+        }, 1000);
     });
 });
 
