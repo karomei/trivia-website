@@ -83,7 +83,7 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
         
-        const outcome = "wrong";
+        let outcome = "wrong";
             if (selectedAnswer == currentQuestion.answer) {
                 outcome = "right";
             }
