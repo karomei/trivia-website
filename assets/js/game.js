@@ -7,32 +7,40 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = [
- {
-     question: "Who is the cutest?",
-     choice1: "My mama",
-     choice2: "A kitten",
-     choice3: "Leonardo DiCaprio",
-     choice4: "Christian",
-     answer: 4
- },
- {
-    question: "Who shot the sheriff?",
-    choice1: "Bob Marley",
-    choice2: "You",
-    choice3: "Me",
-    choice4: "Jeanie with the gun",
-    answer: 1
- },
- {
-    question: "What is the meaning of life?",
-    choice1: "Love",
-    choice2: "42",
-    choice3: "43",
-    choice4: "There's none",
-    answer: 2
- }
-];
+let questions = [];
+
+/**
+ * Fetching data from Open Trivia API (code by James Q Quick)
+ */
+fetch ( "https://opentdb.com/api.php?amount=10&type=multiple")
+
+.then((response) => {
+    return response.json();
+  })
+  .then((retrievedQuestions) => {
+    console.log(retrievedQuestions);
+    questions = retrievedQuestions.results.map(retrievedQuestion => {
+        const arrangedQuestion = {
+            question: retrievedQuestion.question
+        };
+
+        const queryChoises = [...retrievedQuestion.incorrect_answers];
+        arrangedQuestion.answer = Math.floor(Math.random() * 3) + 1;
+        queryChoises.splice(arrangedQuestion.answer, -1, 0, 
+        retrievedQuestion.correct_answer);
+
+        queryChoises.forEach((choice, index) => {
+            arrangedQuestion["choice" + (index+1)] = choice;
+        })
+
+        return arrangedQuestion;
+    })
+    
+    startGame();
+  })
+  .catch(error => {
+      console.log("error");
+  });
 
 const CORRECT_BONUS = 5;
 const MAX_QUESTIONS = 3;
@@ -75,9 +83,9 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
         
-        const outcome = "incorrect";
+        const outcome = "wrong";
             if (selectedAnswer == currentQuestion.answer) {
-                outcome = "correct";
+                outcome = "right";
             }
         
         selectedChoice.classList.add(outcome);
@@ -88,5 +96,3 @@ choices.forEach(choice => {
         }, 1000);
     });
 });
-
-startGame();
