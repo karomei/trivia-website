@@ -1,3 +1,27 @@
+/*------------------------------------------UTILITIES*/
+.questionBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  top: 10vh;
+  width: 30rem;
+  height: 20rem;
+  background-color: #5D59FF;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.8rem;
+}
+
 .choice-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,16 +30,17 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 0.5rem;
-  width: 100%;
-  border: 0.2rem solid rgba(255, 166, 0, 0.5);
-  background-color: #fff;
-}
-
-.choice-prefix {
-  padding: 1.8rem 2.8rem;
-  background-color: orange;
-  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.8rem;
+  width: 30rem;
+  height: 6rem;
+  background-color: #A1A0E0;
+  border-radius: 0.5rem;
 }
 
 .choice-text {
@@ -42,5 +67,14 @@
 .right {
   color: green;
   font-weight: 700;
+}
+
+.progressBar {
+  width: 100vw;
+  height: 2rem;
+  background-color: #ffee02;
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
 }
 /*# sourceMappingURL=game.css.map */

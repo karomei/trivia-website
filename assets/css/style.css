@@ -13,9 +13,9 @@
 }
 
 /*------------------------------------------Text*/
-h1, h2 {
+h1, h2, h3 {
   margin-bottom: 4rem;
-  color: #556edf;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -25,21 +25,37 @@ h1 {
 }
 
 h2 {
-  font-size: 4.8rem;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 /*------------------------------------------Utilities*/
+.navBar {
+  width: 100vw;
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -48,7 +64,7 @@ p {
           align-items: center;
   text-align: center;
   max-width: 80rem;
-  margin: 0 auto;
+  margin: -4rem auto 0 auto;
 }
 
 .container > * {
@@ -63,6 +79,19 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .flex-center {
@@ -78,8 +107,16 @@ p {
   text-align: center;
 }
 
+.justifyLeft {
+  text-align: left;
+}
+
 .hidden {
   display: none;
+}
+
+.relative {
+  position: relative;
 }
 
 /*------------------------------------------Buttons*/
@@ -131,5 +168,9 @@ p {
   width: 100%;
   height: 100%;
   margin: 0 0 3rem 3rem;
+}
+
+.musicLogo {
+  margin: 1rem 0 0 3rem;
 }
 /*# sourceMappingURL=style.css.map */
