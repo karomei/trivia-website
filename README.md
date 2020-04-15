@@ -8,7 +8,8 @@ browsers as possible. However, in some cases due to time-management, focus has b
 put on the larger browsers. As of Febuary 2020, Chrome is the most frequently used 
 browser globally at 58,1%. Safari: 13%, IE and Edge: 12.9%, Firefox: 5,4% and Opera 2.7%.
 
-* Internet Explorer and Edge:
+* Internet Explorer and Edge (updated 04/15/2020):
     * Fetch: At the moment, fetch () is compatible with Edge, but not with IE.
     However, as IE is getting phased out into Edge, I decided to still use it instead of,
     XMLHttpRequest for instance.
+    * Flex: Not supported by IE 6-9, partially supported by IE 10-11 and supported by Edge.
