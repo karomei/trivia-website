@@ -72,9 +72,15 @@
 .progressBar {
   width: 100vw;
   height: 2rem;
-  background-color: #ffee02;
+  background-color: #fff;
   position: absolute;
   bottom: 0;
-  z-index: 1000;
+  left: 0;
+}
+
+#progressBarPercentage {
+  height: 2rem;
+  background-color: #FF9F46;
+  width: 0%;
 }
 /*# sourceMappingURL=game.css.map */
