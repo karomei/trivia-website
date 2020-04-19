@@ -52,6 +52,13 @@ p {
           justify-content: space-between;
 }
 
+.settingsNav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 1rem;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -75,6 +82,12 @@ p {
 
 .container > * {
   width: 100%;
+}
+
+.settingbox {
+  min-width: 36rem;
+  height: 90vh;
+  background-color: #556edf;
 }
 
 .flex-column {
