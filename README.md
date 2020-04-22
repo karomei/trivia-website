@@ -9,6 +9,11 @@ The project is based on the popular and renowned BBC panel-show, QI (Quite Inter
 - [Wireframes for desktop and tablet](assets\images\wireframes\Desktoptrivia.pdf)
 - [Wireframes for Android, both vertical and horizontal modes](assets\images\wireframes\Triviamobile.pdf)
 
+# Optimization
+
+## Graphics
+To optimize the svg-files, I used https://svgomg.firebaseapp.com/. Each svg-file was reduced by 9%-70%, as a result saved memory space.
+
 ## Browser compatibility
 
 Troughout the project, I've tried to manage my code to be able to work on as many 
