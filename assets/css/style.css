@@ -186,6 +186,27 @@ p {
   text-decoration: none;
 }
 
+.btnText {
+  position: absolute;
+  z-index: 2;
+  margin: 0 auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 25%;
+}
+
+.btnText h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.btnBox {
+  position: relative;
+  display: inline-block;
+}
+
 /*------------------------------------------ICONS*/
 .qiIcon {
   width: 100%;
