@@ -22,6 +22,7 @@ h1, h2, h3 {
 h1 {
   font-size: 3.6rem;
   font-weight: 600;
+  letter-spacing: 0.2rem;
 }
 
 h2 {
@@ -212,4 +213,48 @@ p {
 .panelistChoice object {
   margin: 2rem 0 2rem 2.5rem;
 }
-/*# sourceMappingURL=style.css.map */
+
+.panelistInfo {
+  padding-top: 6.6rem;
+  margin: 1.5rem 0 3rem 2.5rem;
+  text-align: left;
+}
+
+.panelistInfo h1{
+  margin-bottom: 2rem;
+}
+.panelistInfo p{
+  margin: 0 0 0.5rem 1rem;
+  letter-spacing: 0.1rem;
+}
+.featureBar {
+  width: 18rem;
+  height:1.1rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  margin-bottom: 2.8rem;
+}
+
+#bar1 {
+  width: 80%;
+  height: 1.1rem;
+  background-color: #FF9F46;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+#bar2 {
+  width: 92%;
+  height: 1.1rem;
+  background-color: #46BCFF;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+#bar3 {
+  width: 65%;
+  height: 1.1rem;
+  background-color: #3F2E83;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
