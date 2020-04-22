@@ -2,7 +2,15 @@
 
 The project is based on the popular and renowned BBC panel-show, QI (Quite Interesting).
 
+# UX 
+
+## Wireframes
+
+- [Wireframes for desktop and tablet](assets\images\wireframes\Desktoptrivia.pdf)
+- [Wireframes for Android, both vertical and horizontal modes](assets\images\wireframes\Triviamobile.pdf)
+
 ## Browser compatibility
+
 Troughout the project, I've tried to manage my code to be able to work on as many 
 browsers as possible. However, in some cases due to time-management, focus has been 
 put on the larger browsers. As of Febuary 2020, Chrome is the most frequently used 
