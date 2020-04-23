@@ -6,8 +6,12 @@ The project is based on the popular and renowned BBC panel-show, QI (Quite Inter
 
 ## Wireframes
 
-- [Wireframes for desktop and tablet](assets\images\wireframes\Desktoptrivia.pdf)
-- [Wireframes for Android, both vertical and horizontal modes](assets\images\wireframes\Triviamobile.pdf)
+The wireframes were created with [Figma](https://www.figma.com/) using desktop frame with 1440x1024 resolution and
+mobile frame with 360x640 resolution. The tablet view will mimic the horizontal view of 
+the desktop wireframes and vertical view of the mobile wireframes.
+
+- [Wireframes for desktop and tablet](https://drive.google.com/file/d/1pP5lXm0wAV2CeT7902Hi35wqwvF6U3mJ/view?usp=sharing)
+- [Wireframes for Android, both vertical and horizontal modes](https://drive.google.com/file/d/1-wCeThsL91tJUpkPDpE36bTpSyOMNnxO/view?usp=sharing)
 
 # Optimization
 
