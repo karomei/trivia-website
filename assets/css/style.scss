@@ -96,9 +96,13 @@ p {
 /*------------------------------------------Nav*/
 .navBar{
     width: 100vw;
-    height: 7vh;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
+}
+
+.navLinks {
+    margin: 1rem 1.5rem;
 }
 
 .settingsNav {

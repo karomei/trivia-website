@@ -120,13 +120,17 @@ p {
 /*------------------------------------------Nav*/
 .navBar {
   width: 100vw;
-  height: 7vh;
+  height: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.navLinks {
+  margin: 1rem 1.5rem;
 }
 
 .settingsNav {
