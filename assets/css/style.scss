@@ -58,7 +58,7 @@ p {
 
 .settingbox {
     min-width: 36rem;
-    height: 90vh;
+    height: 56rem;
     background-color: rgb(85, 110, 223);
 }
 
@@ -96,13 +96,13 @@ p {
 /*------------------------------------------Nav*/
 .navBar{
     width: 100vw;
-    height: 5rem;
+    height: 5.5rem;
     display: flex;
     justify-content: space-between;
 }
 
 .navLinks {
-    margin: 1rem 1.5rem;
+    margin: 1rem 1.5rem 0.5rem 1.5rem;
 }
 
 .settingsNav {
