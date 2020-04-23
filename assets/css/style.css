@@ -217,12 +217,12 @@ p {
 }
 
 .panelistChoice object {
-  margin: 2rem 0 2rem 2.5rem;
+  margin: 0 0 4rem 2.5rem;
 }
 
 .panelistInfo {
   padding-top: 6.6rem;
-  margin: 1.5rem 0 3rem 2.5rem;
+  margin: 0 0 3rem 2.5rem;
   text-align: left;
 }
 
