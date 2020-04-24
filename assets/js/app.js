@@ -3,7 +3,7 @@
  */
 
 function loadLandingPage() {
-    $(".settingsPage").hide();
+    $("#settingsPage").hide();
     $("#landingPage").show();
 }
 
@@ -13,9 +13,16 @@ function loadLandingPage() {
 
  function loadSettingsPage() {
      $("#landingPage").hide();
-     $(".settingsPage").show();
+     $("#settingsPage").show();
  }
 
+/**
+* Click button to display Landing Page
+*/
+$("#home").click(function() {
+  loadLandingPage();
+});
+  
  /**
   * Click button to display the Settings Page
   */

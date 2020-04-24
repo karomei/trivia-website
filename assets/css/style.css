@@ -219,6 +219,14 @@ p {
   color: #fff;
 }
 
+a {
+  display: inline-block;
+}
+
+object {
+  pointer-events: none;
+}
+
 /*------------------------------------------PANELISTS*/
 .panelistChoice {
   width: 13rem;
