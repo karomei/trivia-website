@@ -122,30 +122,6 @@ span {
     padding: 0 2rem;
 }
 /*------------------------------------------Buttons*/
-
-.btn {
-    font-size: 2.4rem;
-    padding: 0.5rem 0;
-    margin-bottom: 1rem;
-    width: 13rem;
-    height: 5rem;
-    border-radius: 5rem;
-    border: 0.3rem solid #fff;
-    text-align: center;
-    text-decoration: none;
-    background-color: #FF9F46;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.2rem;
-}
-
-.btn:hover {
-    cursor: pointer;
-    box-shadow: 0 0.5rem 1rem 0 #391C5F;
-    transform: translateY(-0.3rem);
-    transition: transform 200ms;
-}
-
 .btnText {
     position: absolute;
     z-index: 2;
@@ -155,11 +131,7 @@ span {
     right: 0;
     top: 22%;
 }
-.btnText h2{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-}
+
 .btnBox {
     position: relative;
     display: inline-block;
