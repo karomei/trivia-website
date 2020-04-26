@@ -266,4 +266,11 @@ object {
   border-top-right-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
 }
+
+/*------------------------------------------Media Queries*/
+@media (max-width: 640px) {
+  .leftWave {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
