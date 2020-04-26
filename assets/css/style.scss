@@ -140,8 +140,15 @@ span {
 /*------------------------------------------SVGS*/
 .rightWave {
     position: absolute;
-    bottom: 0;
+    bottom: -1rem;
     right: -1rem;
+    z-index: -10;
+}
+
+.leftWave {
+    position: absolute;
+    bottom: -1rem;
+    left: -1rem;
     z-index: -10;
 }
 /*------------------------------------------ICONS*/
