@@ -299,6 +299,11 @@ object {
   bottom: 7rem;
 }
 
+#close {
+  position: absolute;
+  right: 1rem;
+}
+
 /*------------------------------------------Media Queries*/
 @media (max-width: 640px) {
   .leftWave {
