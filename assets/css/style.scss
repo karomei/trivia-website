@@ -226,8 +226,32 @@ object {
     border-top-right-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
   }
+/*------------------------------------------Modals*/
+.modal {
+    justify-content: center;
+    width: 32rem;
+    height: 55rem;
+    position: fixed;
+    z-index: 10;
+    top: 6rem;
+    overflow: auto;
+    background-color: rgb(85, 110, 223);
+    border-radius: 0.3rem;
+    padding: 2rem;
+}
 
-  /*------------------------------------------Media Queries*/
+.modalText {
+    width: 20rem;
+    height: 40rem;
+    margin-top: 5rem;
+}
+
+.modalText h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.4rem;
+}
+
+/*------------------------------------------Media Queries*/
 
   @media (max-width: 640px) {
       .leftWave {
