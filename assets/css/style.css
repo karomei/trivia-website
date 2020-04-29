@@ -268,7 +268,7 @@ object {
 }
 
 /*------------------------------------------Modals*/
-.modal {
+#infoModal {
   visibility: hidden;
   position: absolute;
   left: 50%;
@@ -285,7 +285,7 @@ object {
   padding: 2rem;
 }
 
-.modal.active {
+#infoModal.active {
   visibility: visible;
 }
 

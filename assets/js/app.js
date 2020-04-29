@@ -31,12 +31,16 @@ $("#settings").click(function() {
   });
 
   /**
-   * Info modal
+   * Info modal, open and close
    */
   $("#siteInfo").click(function() {
-    $(".modal").addClass("active");
+    $("#infoModal").addClass("active");
   });
 
   $("#close").click(function(){
-    $(".modal").removeClass("active");
+    $("#infoModal").removeClass("active");
   });
+
+  /**
+   * Email modal, open and close
+   */
