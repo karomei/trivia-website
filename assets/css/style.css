@@ -289,6 +289,27 @@ object {
   visibility: visible;
 }
 
+#emailModal {
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 32rem;
+  height: 55rem;
+  z-index: 10;
+  top: 6rem;
+  overflow: auto;
+  background-color: #556edf;
+  border-radius: 0.3rem;
+  padding: 2rem;
+}
+
+#emailModal.active {
+  visibility: visible;
+}
+
 .modalText {
   width: 20rem;
   height: 40rem;

@@ -44,3 +44,10 @@ $("#settings").click(function() {
   /**
    * Email modal, open and close
    */
+  $("#email").click(function() {
+    $("#emailModal").addClass("active");
+  });
+
+  $("#close").click(function(){
+    $("#emailModal").removeClass("active");
+  });
