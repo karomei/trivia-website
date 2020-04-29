@@ -81,14 +81,23 @@
             </div>
             <div class="flex-row">
                 <div class="modalText flex-column">
-                    <div class="flex-row">
-                        <label for="name">Name</label>
-                        <input type="text" name="name">
-                        <label for="email">Email</label>
-                        <input type="text" name="email">
-                        <label for="issue">Issue</label>
-                        <input type="text" name="issue">
-                    </div>
+                    <form action="#" method="get">
+                        <div class="flex-row">
+                            <label for="name">Name</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="flex-row">
+                            <label for="email">Email</label>
+                            <input type="text" name="email">
+                        </div>
+                        <div class="flex-row">
+                            <label for="issue">Issue</label>
+                            <textarea rows="4" name="issue" placeholder="Feel free to ask a question or discuss the meaning of life..."></textarea>
+                        </div>
+                        <div class="flex-row">
+                            <button type="submit" value="submit">SEND</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
