@@ -228,10 +228,12 @@ object {
   }
 /*------------------------------------------Modals*/
 .modal {
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
     width: 32rem;
     height: 55rem;
-    position: fixed;
     z-index: 10;
     top: 6rem;
     overflow: auto;

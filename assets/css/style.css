@@ -269,12 +269,13 @@ object {
 
 /*------------------------------------------Modals*/
 .modal {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   width: 32rem;
   height: 55rem;
-  position: fixed;
   z-index: 10;
   top: 6rem;
   overflow: auto;
