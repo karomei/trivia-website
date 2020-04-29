@@ -269,6 +269,7 @@ object {
 
 /*------------------------------------------Modals*/
 .modal {
+  visibility: hidden;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -282,6 +283,10 @@ object {
   background-color: #556edf;
   border-radius: 0.3rem;
   padding: 2rem;
+}
+
+.modal.active {
+  visibility: visible;
 }
 
 .modalText {

@@ -29,3 +29,14 @@ $("#home").click(function() {
 $("#settings").click(function() {
     loadSettingsPage();
   });
+
+  /**
+   * Info modal
+   */
+  $("#siteInfo").click(function() {
+    $(".modal").addClass("active");
+  });
+
+  $("#close").click(function(){
+    $(".modal").removeClass("active");
+  });
