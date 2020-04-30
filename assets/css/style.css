@@ -383,7 +383,7 @@ input[type=submit] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 /*------------------------------------------Media Queries*/
