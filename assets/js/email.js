@@ -12,8 +12,10 @@ function sendMail(emailForm) {
     })
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+       alert("Your email was successfully sent!");
     }, function(error) {
        console.log('FAILED...', error);
+       alert("Something went wrong, please try again!");
     });
     return false;
 };
