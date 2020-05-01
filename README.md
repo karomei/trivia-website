@@ -63,3 +63,9 @@ browser globally at 58,1%. Safari: 13%, IE and Edge: 12.9%, Firefox: 5,4% and Op
     However, as IE is getting phased out into Edge, I decided to still use it instead of,
     XMLHttpRequest for instance.
     * Flex: Not supported by IE 6-9, partially supported by IE 10-11 and supported by Edge.
+
+## Acknowledgements
+
+I would like to thank especially my Code Institute mentor: Precious Ijege. He was a rock throughout the project and helped with a lot of questions and gave great support.
+
+Would also like to thank the Code Institute Slack Community, which I could reach out to whenever I needed a question resolved.
