@@ -4,6 +4,26 @@ The project is based on the popular and renowned BBC panel-show, QI (Quite Inter
 
 # UX 
 
+## User Epics & Stories
+
+For this project, I created 3 epics which the project was going to focus on.
+From there, the user stories were created.
+
+### User Epics
+
+- #1: As a user, I want an interactive, fun and exciting game.
+- #2: As a player, I want to be able to change the game output according to my preferences.
+- #3: As a fan, I want to discover elements I recognise from the show.
+
+### User Stories
+
+- 1a: As a user, I want recognition when something is achieved in the game.
+- 1b: As a user, I don't want to guess what I'm supposed to do, so I can relax.
+- 2a: As a lesser invested player, I want to have settings by default.
+- 2b: As a more invested player, I want to be able to fit the settings according to my preferences.
+- 3a: As a fan, I want to experience things which make me feel as I'm one with the show.
+- 3b: As a fan, it would make me happy to see inside jokes from the show.
+
 ## Wireframes
 
 The wireframes were created with [Figma](https://www.figma.com/) using desktop frame with 1440x1024 resolution and
