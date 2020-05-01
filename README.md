@@ -7,7 +7,7 @@ The project is based on the popular and renowned BBC panel-show, QI (Quite Inter
 ## User Epics & Stories
 
 For this project, I created 3 epics which the project was going to focus on.
-From there, the user stories were created.
+From there, the user stories were created and features could be added.
 
 ### User Epics
 
@@ -23,6 +23,19 @@ From there, the user stories were created.
 - 2b: As a more invested player, I want to be able to fit the settings according to my preferences.
 - 3a: As a fan, I want to experience things which make me feel as I'm one with the show.
 - 3b: As a fan, it would make me happy to see inside jokes from the show.
+
+### Features
+
+* Provide a colorful and eyecatching User Experience design.
+* Landing page animation.
+* Cursor animation.
+* Sound effect if correct answer.
+* Klaxon sound effect if incorrect answer.
+* Highscore revealed after last round.
+* Using Open Trivia Database API.
+* Using EmailJS API.
+* Able to change difficulty settings, from easy to hard.
+* Have default settings.
 
 ## Wireframes
 
