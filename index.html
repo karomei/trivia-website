@@ -90,7 +90,7 @@
             </div>
             <div class="flex-row">
                 <div class="modalForm flex-column">
-                    <form action="#" method="get">
+                    <form onsubmit="return sendMail(this);">
                         <div class="flex-row">
                             <label for="name">Name</label>
                             <input type="text" name="name" placeholder="stephen@gmail.com">
@@ -183,5 +183,6 @@
         </div>
     </div>
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/email.js"></script>
 </body>
 </html>
