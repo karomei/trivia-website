@@ -407,5 +407,11 @@ input[type=submit] {
   .link {
     width: 5rem;
   }
+  #lWave {
+    width: 99rem;
+  }
+  #rWave {
+    width: 140rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
