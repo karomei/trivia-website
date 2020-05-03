@@ -125,7 +125,6 @@ span {
 /*------------------------------------------Nav*/
 .navBar {
   width: 100vw;
-  height: 5.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,6 +411,9 @@ input[type=submit] {
   }
   #rWave {
     width: 140rem;
+  }
+  #home {
+    width: 9.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

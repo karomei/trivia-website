@@ -100,7 +100,6 @@ span {
 /*------------------------------------------Nav*/
 .navBar{
     width: 100vw;
-    height: 5.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -362,5 +361,8 @@ input[type=submit] {
     }
     #rWave{
         width: 140rem;
+    }
+    #home {
+        width: 9.5rem;
     }
   }
