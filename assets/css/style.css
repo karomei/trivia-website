@@ -415,5 +415,8 @@ input[type=submit] {
   #home {
     width: 9.5rem;
   }
+  .music {
+    width: 4rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
