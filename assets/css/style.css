@@ -432,6 +432,9 @@ input[type=submit] {
   .music {
     width: 4rem;
   }
+  #smPanelist {
+    width: 10rem;
+  }
   /*Containers*/
   .settingbox {
     width: 120rem;
