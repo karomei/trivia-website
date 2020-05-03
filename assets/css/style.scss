@@ -52,7 +52,7 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 80rem;
+    max-width: 120rem;
     margin: -4rem auto 0 auto;
 }
 
@@ -97,6 +97,10 @@ span {
     position: relative;
 }
 
+.spaceEven{
+    justify-content: space-evenly;
+}
+
 /*------------------------------------------Nav*/
 .navBar{
     width: 100vw;
@@ -112,6 +116,7 @@ span {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin: 2rem 0;
 }
 
@@ -342,7 +347,8 @@ input[type=submit] {
       }
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 1220px) {
+      /*Graphics*/
     #mainIcon {
           width: 50rem;
       }
@@ -367,5 +373,10 @@ input[type=submit] {
     }
     .music {
         width: 4rem;
+    }
+    /*Containers*/
+    .settingbox {
+        width: 120rem;
+        height: 76rem; 
     }
   }
