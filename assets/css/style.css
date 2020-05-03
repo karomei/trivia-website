@@ -404,5 +404,8 @@ input[type=submit] {
   span {
     font-size: 3rem;
   }
+  .link {
+    width: 5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
