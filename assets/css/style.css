@@ -409,6 +409,9 @@ input[type=submit] {
   .person {
     width: 3.5rem;
   }
+  .category {
+    width: 3.5rem;
+  }
 }
 
 @media (max-width: 1220px) {
