@@ -342,3 +342,9 @@ input[type=submit] {
           display: none;
       }
   }
+
+  @media (min-width: 992px) {
+    #mainIcon{
+          width: 50rem;
+      }
+  }
