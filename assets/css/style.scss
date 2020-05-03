@@ -159,6 +159,10 @@ span {
 #lgPanelist {
     margin-top: 10rem;
 }
+
+#done {
+    margin-bottom: 1rem;
+}
 /*------------------------------------------ICONS*/
 #mainIcon {
     margin: 3rem 0 3rem 2.5rem;
@@ -182,7 +186,6 @@ object {
 /*------------------------------------------PANELISTS*/
 .panelistChoice {
     width: 13rem;
-    height: 48rem;
     padding-top: 7.5rem;
   }
   
@@ -349,6 +352,18 @@ input[type=submit] {
       .leftWave {
           display: none;
       }
+      .person {
+          width: 3.5rem;
+      }
+  }
+
+  @media (max-width: 1220px) {
+    #lgPanelist {
+        display: none;
+    }
+    .settingbox {
+        height: 60rem; 
+    }
   }
 
   @media (min-width: 1220px) {
