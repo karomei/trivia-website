@@ -397,5 +397,12 @@ input[type=submit] {
   #mainIcon {
     width: 50rem;
   }
+  #mainBtn {
+    width: 18rem;
+    padding-top: 0.5rem;
+  }
+  span {
+    font-size: 3rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

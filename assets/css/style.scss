@@ -344,7 +344,14 @@ input[type=submit] {
   }
 
   @media (min-width: 992px) {
-    #mainIcon{
+    #mainIcon {
           width: 50rem;
       }
+    #mainBtn {
+        width: 18rem;
+        padding-top: 0.5rem;
+    }
+    span {
+        font-size: 3rem;
+    }
   }
