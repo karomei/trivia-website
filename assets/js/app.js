@@ -1,4 +1,15 @@
 /**
+ * Pauses Landing Page Theme Music
+ */
+let audio = $("#themeMusic")[0];
+$("#music").click(function(){
+  if (audio.paused == false) {
+    audio.pause();
+  } else {
+    audio.play();
+  }
+});
+/**
  * Loads Landing Page
  */
 

@@ -450,7 +450,7 @@ input[type=submit] {
   #home {
     width: 6.5rem;
   }
-  .music {
+  #music object {
     width: 4rem;
   }
   #smPanelist {

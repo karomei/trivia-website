@@ -21,10 +21,17 @@
 </head>
 <body>
     <!--Landing page-->
+    <audio loop id="themeMusic">
+        <source src="./assets/audio/QI.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <div id="landingPage">
         <div class="flex-row navBar">
             <div class="navLinks flex-column">
-                <object data="./assets/images/music.svg" type="image/svg+xml" class="music"></object>
+                <a href="#" id="music">
+                    <object data="./assets/images/music.svg" type="image/svg+xml"></object>
+                </a>
             </div>
             <div class="navLinks flex-row">
                 <div class="flex-column">
@@ -115,7 +122,7 @@
     <div id="settingsPage">
         <div class="flex-row navBar">
             <div class="navLinks flex-column">
-                    <object data="./assets/images/music.svg" type="image/svg+xml" class="music"></object>
+                    <object data="./assets/images/music.svg" type="image/svg+xml" id="music"></object>
             </div>
             <div class="navLinks flex-column">
                 <a href="index.html">
