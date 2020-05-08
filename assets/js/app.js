@@ -10,31 +10,6 @@ $("#music").click(function(){
   }
 });
 
-/**
- * Loads Settings Page, hides Game Page
- */
-
-function loadSettingsPage() {
-  $("#gamePage").hide();
-  $("#settingsPage").show();
-}
-
-/**
- * Loads Game Page and hides Settings Page
- */
-
-function loadGamePage() {
-    $("#settingsPage").hide();
-    $("#gamePage").show();
-}
-
- /**
-  * Click button to display the Game Page
-  */
-$("#gameScreen").click(function() {
-    loadGamePage();
-  });
-
   /**
    * Info modal, open and close. If other modal is open, close it.
    */
