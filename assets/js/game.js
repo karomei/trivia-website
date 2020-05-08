@@ -11,6 +11,30 @@ let availableQuestions = [];
 let questions = [];
 
 /**
+ * Loads Settings Page, hides Game Page
+ */
+
+function loadSettingsPage() {
+    $("#gamePage").hide();
+    $("#settingsPage").show();
+}
+  
+/**
+* Loads Game Page and hides Settings Page
+*/
+  
+function loadGamePage() {
+    $("#settingsPage").hide();
+    $("#gamePage").show();
+}  
+/**
+ * Click button to display the Game Page
+ */
+$("#gameScreen").click(function() {
+  loadGamePage();
+});
+
+/**
  * Fetching data from Open Trivia API (code by James Q Quick)
  */
 fetch ( "https://opentdb.com/api.php?amount=10&type=multiple")
