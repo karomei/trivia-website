@@ -42,10 +42,11 @@ $("#settings").click(function() {
   });
 
   /**
-   * Info modal, open and close
+   * Info modal, open and close. If other modal is open, close it.
    */
   $("#siteInfo").click(function() {
     $("#infoModal").addClass("active");
+    $("#emailModal").removeClass("active");
   });
 
   $("#close").click(function(){
@@ -53,10 +54,11 @@ $("#settings").click(function() {
   });
 
   /**
-   * Email modal, open and close
+   * Email modal, open and close. If other modal is open, close it.
    */
   $("#email").click(function() {
     $("#emailModal").addClass("active");
+    $("#infoModal").removeClass("active");
   });
 
   $("#close").click(function(){
