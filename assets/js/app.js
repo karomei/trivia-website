@@ -9,23 +9,24 @@ $("#music").click(function(){
     audio.play();
   }
 });
+
 /**
- * Loads Landing Page
+ * Loads Settings Page, hides Game Page
  */
 
-function loadLandingPage() {
-    $("#settingsPage").hide();
-    $("#landingPage").show();
+function loadSettingsPage() {
+  $("#gamePage").hide();
+  $("#settingsPage").show();
 }
 
 /**
- * Loads Settings Page, hides Landing Page
+ * Loads Game Page and hides Settings Page
  */
 
- function loadSettingsPage() {
-     $("#landingPage").hide();
-     $("#settingsPage").show();
- }
+function loadGamePage() {
+    $("#settingsPage").hide();
+    $("#gamePage").show();
+}
 
 /**
 * Click button to display Landing Page
