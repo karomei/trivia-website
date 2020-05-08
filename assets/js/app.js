@@ -36,10 +36,10 @@ $("#home").click(function() {
 });
   
  /**
-  * Click button to display the Settings Page
+  * Click button to display the Game Page
   */
-$("#settings").click(function() {
-    loadSettingsPage();
+$("#gameScreen").click(function() {
+    loadGamePage();
   });
 
   /**
