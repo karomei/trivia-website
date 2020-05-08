@@ -28,13 +28,6 @@ function loadGamePage() {
     $("#gamePage").show();
 }
 
-/**
-* Click button to display Landing Page
-*/
-$("#home").click(function() {
-  loadLandingPage();
-});
-  
  /**
   * Click button to display the Game Page
   */
