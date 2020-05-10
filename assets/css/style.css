@@ -357,7 +357,7 @@ form .flex-row {
 #modalGirl {
   position: absolute;
   top: 20rem;
-  right: 15rem;
+  right: 5rem;
 }
 
 #close {
@@ -459,13 +459,11 @@ input[type=submit] {
     height: 76rem;
   }
   #infoModal {
-    width: 90%;
-    max-width: 130rem;
+    max-width: 100rem;
     height: 76rem;
   }
   #emailModal {
-    width: 90%;
-    max-width: 130rem;
+    max-width: 100rem;
     height: 76rem;
   }
   /*Text*/
