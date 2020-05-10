@@ -9,20 +9,21 @@
     <link rel="stylesheet" href="./assets/css/game.css" />
 </head>
 <body>
+<!--Navbar-->
+<div class="flex-row navBar">
+    <div class="navLinks flex-column">
+        <a id="music">
+            <object data="./assets/images/music.svg" type="image/svg+xml"></object>
+        </a>
+    </div>
+    <div class="navLinks flex-column">
+        <a href="index.html">
+            <object data="./assets/images/home.svg" type="image/svg+xml" id="home"></object>
+        </a>
+    </div>
+</div>
 <!--Settings page-->
 <div id="settingsPage">
-    <div class="flex-row navBar">
-        <div class="navLinks flex-column">
-            <a id="music">
-                <object data="./assets/images/music.svg" type="image/svg+xml"></object>
-            </a>
-        </div>
-        <div class="navLinks flex-column">
-            <a href="index.html">
-                <object data="./assets/images/home.svg" type="image/svg+xml" id="home"></object>
-            </a>
-        </div>
-    </div>
     <div class="container">
         <div class="settingbox">
             <div class="flex-row">
@@ -71,17 +72,6 @@
 </div>
 <!--Game page-->
 <div id="gamePage">
-    <div class="flex-column">
-        <div class="navBar">
-            <div class="navLink">
-                <object type="image/svg+xml" data="./assets/images/music.svg" class="musicLogo">
-                </object>
-            </div>
-            <div class="logo">
-                <a href="./index.html"></a>
-            </div>
-        </div>
-    </div>
     <div class="flex-column">
         <div class="progressBar">
             <div id="progressBarPercentage">
