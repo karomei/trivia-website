@@ -354,9 +354,10 @@ form .flex-row {
   padding: 1rem 0;
 }
 
-#modalMan {
+#modalGirl {
   position: absolute;
-  bottom: 7rem;
+  top: 20rem;
+  right: 15rem;
 }
 
 #close {
@@ -407,6 +408,14 @@ input[type=submit] {
   #smPanelist {
     width: 7rem;
   }
+  #modalGirl {
+    visibility: hidden;
+  }
+  #modalMan {
+    visibility: visible;
+    top: 35rem;
+    position: absolute;
+  }
 }
 
 @media (min-width: 1220px) {
@@ -436,6 +445,9 @@ input[type=submit] {
   #music object {
     width: 4rem;
   }
+  #modalMan {
+    visibility: hidden;
+  }
   /*Containers*/
   .settingbox {
     width: 120rem;
@@ -461,6 +473,8 @@ input[type=submit] {
     height: 40rem;
     margin-top: 15rem;
     margin-left: 10rem;
+    position: absolute;
+    z-index: 1;
   }
   .modalText h2 {
     font-size: 4.8rem;
