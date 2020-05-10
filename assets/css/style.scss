@@ -223,7 +223,7 @@ object {
   }
 /*------------------------------------------Modals*/
 #infoModal {
-    visibility: hidden;
+    opacity: 0;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -239,11 +239,12 @@ object {
 }
 
 #infoModal.active {
-    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s;
 }
 
 #emailModal {
-    visibility: hidden;
+    opacity: 0;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -259,7 +260,8 @@ object {
 }
 
 #emailModal.active {
-    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s;
 }
 .modalText {
     width: 20rem;
