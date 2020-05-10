@@ -334,7 +334,7 @@ input[type=submit] {
     margin-top: 3rem;
 }
 /*------------------------------------------Media Queries*/
-
+/*-------------Vertical view-------------*/
   @media (max-width: 640px) {
       .leftWave {
           display: none;
@@ -435,6 +435,11 @@ input[type=submit] {
     }
     .modalText h2 {
         font-size: 4.8rem;
+    }
+    label {
+        font-size: 3.6rem;
+        margin: 2rem 1rem;
+        width: 12rem;
     }
     /*Bars*/
     .featureBar {
