@@ -393,12 +393,29 @@ input[type=submit] {
         width: 120rem;
         height: 76rem; 
     }
+    #infoModal {
+        width: 120rem;
+        height: 76rem;
+    }
+    #emailModal {
+        width: 120rem;
+        height: 76rem;
+    }
     /*Text*/
     h1 {
         font-size: 5rem;
     }
     p {
         font-size: 2.4rem;
+    }
+    .modalText {
+        width: 48rem;
+        height: 40rem;
+        margin-top: 15rem;
+        margin-left: 10rem;
+    }
+    .modalText h2 {
+        font-size: 4.8rem;
     }
     /*Bars*/
     .featureBar {
