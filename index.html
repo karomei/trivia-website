@@ -84,7 +84,7 @@
                     <a href="#" id="close">
                         <object data="./assets/images/close.svg" type="image/svg+xml"></object>
                     </a>
-                    <object data="./assets/images/modalman.svg" type="image/svg+xml" id="modalMan"></object>
+                    <object data="./assets/images/modalman.svg" type="image/svg+xml" id="modalGirl"></object>
                     <object data="./assets/images/infogirl.svg" type="image/svg+xml" id="modalGirl"></object>
                 </div>
             </div>
@@ -96,9 +96,9 @@
                     <object data="./assets/images/close.svg" type="image/svg+xml"></object>
                 </a>
             </div>
-            <div class="flex-row">
-                <div class="modalForm flex-column">
-                    <form onsubmit="return sendMail(this);">
+            <div class="flex-column">
+                <form onsubmit="return sendMail(this);">
+                    <div class="modalForm flex-column">
                         <div class="flex-row">
                             <label for="name">Name</label>
                             <input type="text" name="name" placeholder="Alan Davies" required>
@@ -111,11 +111,11 @@
                             <label for="issue">Issue</label>
                             <textarea rows="7" name="issue" placeholder="Feel free to ask a question or discuss the meaning of life..." required></textarea>
                         </div>
-                        <div class="flex-row flex-center">
-                            <input id="submitBtn" type="submit" value="SEND">
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="flex-row flex-center">
+                        <input id="submitBtn" type="submit" value="SEND">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
