@@ -319,6 +319,10 @@ form .flex-row{
     right: 1rem;
 }
 
+#mailbox {
+   margin-left: 2rem;
+}
+
 input[type=submit] {
     background-image: url(../images/btn.svg);
     background-repeat: no-repeat;
@@ -369,6 +373,9 @@ input[type=submit] {
         top: 35rem;
         position: absolute;
     }
+    #mailbox {
+        display: none;
+    }
   }
 
   @media (min-width: 1220px) {
@@ -410,11 +417,13 @@ input[type=submit] {
         height: 76rem; 
     }
     #infoModal {
-        max-width: 100rem;
+        width: 80%;
+        max-width: 130rem;
         height: 76rem;
     }
     #emailModal {
-        max-width: 100rem;
+        width: 80%;
+        max-width: 130rem;
         height: 76rem;
     }
     /*Text*/
@@ -461,7 +470,7 @@ input[type=submit] {
     /*Modals*/
     input[type=text], textarea {
         min-height: 5rem;
-        width: 40%;
+        width: 80%;
         font-size: 2.4rem;
         font-weight: 700;
     }
@@ -471,5 +480,8 @@ input[type=submit] {
         background-size: 18rem;
         font-size: 3rem;
         margin-top: 3rem;
+        position: absolute;
+        left: 43%;
+        margin-top: 8rem;
     }
   }
