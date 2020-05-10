@@ -367,6 +367,7 @@ form .flex-row {
 
 input[type=submit] {
   background-image: url(../images/btn.svg);
+  background-repeat: no-repeat;
   border: 0;
   display: block;
   height: 5.5rem;
@@ -511,6 +512,13 @@ input[type=submit] {
     width: 40%;
     font-size: 2.4rem;
     font-weight: 700;
+  }
+  input[type=submit] {
+    height: 7rem;
+    width: 18rem;
+    background-size: 18rem;
+    font-size: 3rem;
+    margin-top: 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
