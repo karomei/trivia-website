@@ -281,6 +281,15 @@ object {
   margin: 5% 10%;
 }
 
+#previous {
+  margin-right: 2rem;
+}
+
+.settingsViewer {
+  position: relative;
+  margin-left: 23%;
+}
+
 /*------------------------------------------Modals*/
 #infoModal {
   visibility: hidden;
