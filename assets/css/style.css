@@ -263,6 +263,24 @@ object {
   border-bottom-right-radius: 0.3rem;
 }
 
+.settingsTag {
+  width: 66%;
+  height: 8.5rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.4rem 0.4rem rgba(63, 46, 131, 0.25);
+          box-shadow: 0 0.4rem 0.4rem rgba(63, 46, 131, 0.25);
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.settingsTag h1 {
+  color: #3F2E83;
+  margin: 5% 10%;
+}
+
 /*------------------------------------------Modals*/
 #infoModal {
   visibility: hidden;

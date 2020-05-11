@@ -225,6 +225,19 @@ object {
     border-top-right-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
   }
+  .settingsTag {
+      width: 66%;
+      height: 8.5rem;
+      border-radius: 0.3rem;
+      background-color:#fff;
+      box-shadow: 0 .4rem .4rem rgba(63, 46, 131, 0.25);
+      margin-top: 5%;
+      align-items: center;
+  }
+  .settingsTag h1 {
+      color: #3F2E83;
+      margin: 5% 10%;
+  }
 /*------------------------------------------Modals*/
 #infoModal {
     visibility: hidden;
