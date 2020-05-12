@@ -487,6 +487,9 @@ input[type=submit] {
     width: 18rem;
     padding-top: 0.5rem;
   }
+  #doneBtn {
+    width: 18rem;
+  }
   span {
     font-size: 3rem;
   }
