@@ -37,7 +37,7 @@ $("#gameScreen").click(function() {
 /**
  * Fetching data from Open Trivia API (code by James Q Quick)
  */
-fetch ( "https://opentdb.com/api.php?amount=10&type=multiple")
+fetch ( "https://opentdb.com/api.php?amount=50&category=9&type=multiple")
 
 .then((response) => {
     return response.json();
@@ -67,7 +67,12 @@ fetch ( "https://opentdb.com/api.php?amount=10&type=multiple")
       console.log("error");
   });
 
-const CORRECT_BONUS = 5;
+/**
+ * Randoms a score between 1 to 5
+ */
+randomBonusScore = () => {
+    correct_bonus = Math.floor(Math.random() *5) + 1;
+}
 const MAX_QUESTIONS = 3;
 
 startGame = () =>{
@@ -116,7 +121,9 @@ choices.forEach(choice => {
             if (selectedAnswer == currentQuestion.answer) {
                 outcome = "right";
             }
-        
+        if (outcome === "right") {
+            highScore(correct_bonus);
+        }
         selectedChoice.classList.add(outcome);
 
         setTimeout( () => {
