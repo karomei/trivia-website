@@ -1,4 +1,14 @@
 /*------------------------------------------UTILITIES*/
+#game {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30%;
+}
+
 .questionBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,5 +100,30 @@
   height: 2rem;
   background-color: #FF9F46;
   width: 0%;
+}
+
+@media (min-width: 1220px) {
+  /*Utilities*/
+  #game {
+    margin-top: 0;
+  }
+  .questionBox {
+    width: 45rem;
+    height: 30rem;
+    padding: 1rem 2rem;
+  }
+  .choice-container {
+    margin-bottom: 2.5rem;
+    width: 45rem;
+    height: 7rem;
+  }
+  /*Text*/
+  .questionBox h2 {
+    font-size: 3.6rem;
+    padding: 1rem;
+  }
+  .choice-text {
+    font-size: 3rem;
+  }
 }
 /*# sourceMappingURL=game.css.map */

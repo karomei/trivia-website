@@ -1,4 +1,12 @@
 /*------------------------------------------UTILITIES*/
+.container #game{
+    
+}
+#game {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
 .questionBox {
     display: flex;
     flex-direction: row;
@@ -68,4 +76,29 @@
     height: 2rem;
     background-color: #FF9F46;
     width: 0%;
+}
+
+@media (min-width: 1220px) {
+    /*Utilities*/
+    #game {
+        margin-top: 0;
+    }
+    .questionBox {
+        width: 45rem;
+        height: 30rem;
+        padding: 1rem 2rem;
+    }
+    .choice-container {
+        margin-bottom: 2.5rem;
+        width: 45rem;
+        height: 7rem;
+    }
+    /*Text*/
+    .questionBox h2 {
+        font-size: 3.6rem;
+        padding: 1rem;
+    }
+    .choice-text {
+        font-size: 3rem;
+    }
 }
