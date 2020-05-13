@@ -525,6 +525,27 @@ input[type=submit] {
   #mailbox {
     display: none;
   }
+  /*Category*/
+  .categoryInfo {
+    margin: 0 0 3rem 0;
+  }
+  .categoryInfo h2 {
+    font-size: 2.4rem;
+    margin: 2.5rem 0rem 1.5rem 0rem;
+  }
+  .categoryInfo p {
+    margin-left: 1.5rem;
+  }
+  .dropDownMenu {
+    height: 2.5rem;
+  }
+  .dropDownChoice {
+    width: 12rem;
+    border-radius: .2rem;
+  }
+  #arrow {
+    height: 2.5rem;
+  }
 }
 
 @media (min-width: 1220px) {
