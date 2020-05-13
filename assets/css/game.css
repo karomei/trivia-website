@@ -103,6 +103,7 @@
   width: 0%;
 }
 
+/*-------------------------------------------Media Queries*/
 @media (min-width: 1220px) {
   /*Utilities*/
   #game {

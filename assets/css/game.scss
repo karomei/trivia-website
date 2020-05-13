@@ -1,7 +1,4 @@
 /*------------------------------------------UTILITIES*/
-.container #game{
-    
-}
 #game {
     justify-content: center;
     align-items: center;
@@ -78,7 +75,7 @@
     background-color: #FF9F46;
     width: 0%;
 }
-
+/*-------------------------------------------Media Queries*/
 @media (min-width: 1220px) {
     /*Utilities*/
     #game {
