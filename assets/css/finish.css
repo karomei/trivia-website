@@ -14,4 +14,25 @@
 .podium object {
   margin-bottom: 1rem;
 }
+
+/*-----------------------------Text*/
+#highscoreHeader {
+  font-size: 2.4rem;
+}
+
+.highscoreText {
+  width: 20rem;
+  height: 25rem;
+  text-align: left;
+}
+
+.highscoreText h2 {
+  margin-bottom: 1rem;
+}
+
+.highscoreText p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 /*# sourceMappingURL=finish.css.map */
