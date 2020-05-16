@@ -121,9 +121,6 @@ choices.forEach(choice => {
             if (selectedAnswer == currentQuestion.answer) {
                 outcome = "right";
             }
-        if (outcome === "right") {
-            highScore(correct_bonus);
-        }
         selectedChoice.classList.add(outcome);
 
         setTimeout( () => {
