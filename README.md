@@ -46,6 +46,10 @@ the desktop wireframes and vertical view of the mobile wireframes.
 - [Wireframes for desktop and tablet](https://drive.google.com/file/d/1pP5lXm0wAV2CeT7902Hi35wqwvF6U3mJ/view?usp=sharing)
 - [Wireframes for Android, both vertical and horizontal modes](https://drive.google.com/file/d/1-wCeThsL91tJUpkPDpE36bTpSyOMNnxO/view?usp=sharing)
 
+## Audio
+The QI theme song was downloaded from http://www.televisiontunes.com/.
+The website doesn't have any legal claims over the song though and therefore if requested I will remove it. However, this project is not for commercial use and hence I made the decision to keep it.
+
 # Optimization
 
 ## Graphics
