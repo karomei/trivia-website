@@ -32,6 +32,10 @@
 /*-----------------------------Media Query*/
 @media (min-width: 1220px) {
     /*Text*/
+    .highscoreText {
+        width: 60rem;
+        height: 28rem;
+    }
     #highscoreHeader {
         font-size: 3.6rem;
     }
