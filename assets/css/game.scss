@@ -75,6 +75,31 @@
     background-color: #FF9F46;
     width: 0%;
 }
+/*-------------------------------------------Settings*/
+.selectBox {
+    width: 15.7rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    padding-left: 2.5rem;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    border-color: none;
+
+}
+.selectBox option {
+    background: #46BCFF;
+    font-weight: 700;
+    border-style: none;
+}
+#levelChoice {
+    background-color: transparent;
+}
 /*-------------------------------------------Media Queries*/
 @media (min-width: 1220px) {
     /*Utilities*/
@@ -104,5 +129,11 @@
     }
     .right {
         width: 45rem;
+    }
+    /*Settings*/
+    .selectBox {
+        width: 22rem;
+        height: 3.5rem;
+        font-size: 2.4rem;
     }
 }
