@@ -90,15 +90,18 @@
     position: absolute;
     cursor: pointer;
     border-color: none;
-
+    background-color: transparent
 }
 .selectBox option {
-    background: #46BCFF;
+    background-color: transparent;
     font-weight: 700;
     border-style: none;
 }
-#levelChoice {
-    background-color: transparent;
+#levelChoice option {
+    background: #46BCFF;
+}
+#questionChoice option{
+    background-color: #3F2E83;
 }
 /*-------------------------------------------Media Queries*/
 @media (min-width: 1220px) {
