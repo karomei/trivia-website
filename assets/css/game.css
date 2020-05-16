@@ -116,8 +116,8 @@
   }
   .choice-container {
     margin-bottom: 2.5rem;
-    width: 45rem;
-    height: 7rem;
+    min-width: 45rem;
+    min-height: 7rem;
   }
   /*Text*/
   .questionBox h2 {
