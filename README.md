@@ -113,6 +113,20 @@ browser globally at 58,1%. Safari: 13%, IE and Edge: 12.9%, Firefox: 5,4% and Op
     XMLHttpRequest for instance.
     * Flex: Not supported by IE 6-9, partially supported by IE 10-11 and supported by Edge.
 
+# Technologies Used
+
+## Languages
+
+This project was made in HTML5, CSS3 and JS.
+
+## Frameworks
+
+No frameworks were used.
+
+## Libraries
+
+JQuery was used in the JS files.
+
 # Credits 
 
 StackOverflow, for answering numerous of questions.
