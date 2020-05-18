@@ -90,6 +90,14 @@ the desktop wireframes and vertical view of the mobile wireframes.
 The QI theme song was downloaded from http://www.televisiontunes.com/.
 The website doesn't have any legal claims over the song though and therefore if requested I will remove it. However, this project is not for commercial use and hence I made the decision to keep it.
 
+## Not implemented
+
+There were a lot of things which weren't completed in the project. It was due to time and personal reasons.
+Things that were scrapped or not implemented:
+- Audio: The klaxon sound audio.
+- Responsiveness: The tablet view was partially scrapped.
+- UX: The highscore count and placement, be able to select category, difficulty, sound settings, panelist and number of questions.
+
 # Optimization
 
 ## Graphics
