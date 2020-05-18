@@ -37,6 +37,45 @@ From there, the user stories were created and features could be added.
 * Able to change difficulty settings, from easy to hard.
 * Have default settings.
 
+## UX Design
+
+First part of designing the project was making lots of different sketches with pen and paper, the easiest way in my opinion to get many ideas down. From there, the favorite design was picked and made in Figma. My goal with the design was to have a less cluttered website than what I could find in other trivia websites and create something which was more intune with the current website fashion.
+
+The initial sketches: 
+[First](https://drive.google.com/file/d/1j4R7y0Msv9J4pj4C4Y3-dzYwHUndOEnw/view?usp=sharing), [Second](https://drive.google.com/file/d/1j9dgr7s18IgY_YAECcEbNcLXTvZJPI8D/view?usp=sharing), [Third](https://drive.google.com/file/d/1j7rVNBhfcRar5OtWMIMyHVmnliVyjuOT/view?usp=sharing)
+
+### Icon and waves
+
+The icon is similar to the original QI logo, however instead of a looking glass I decided to make the Q into a balloon instead. As it represents the questions asked in the game. 
+
+The waves were a recurring theme throughout the project, in the background and buttons. I mainly designed these to create a more flowy, round and calm feel to the otherwise boxy containers (questions, answers, modals etc.). Although the containers wasn't made out to be too contrasted to the roundness of the waves, so all corners have been rounded.
+
+### Colours
+
+For the colours, I didn't use any colour palette tool, but used colour theory and typical UX practises.
+
+The main palette consists of purples, blues and oranges.
+Puples and blue colours blends well together as they're analogous colours and the orange is a complementary colour to the analogous ones.
+
+_The purples:_
+1. #3F2E83, main background colour and darkest shade, serves well as contrast to the lighter shades.
+2. #8066C9, inner wave colour and background for highscore portrait.
+3. #A1A0E0, outer wave colour, question background, nav icon and lightest shade.
+
+_The blues:_
+1. #5D59FF, used for modals, answers and the settings page. Was chosen as it stands out against the purple background, but not too much to distract.
+2. #46BCFF, used only for the setting page progress bar.
+
+_The oranges:_
+1. #FF9F46, lighter orange shade used for buttons, progress bar and illustrations.
+2. #EB8120, darker orange shade used for buttons.
+
+### Illustrations
+
+Made by me in Figma: all of the icons, buttons and wave illustrations.
+
+The other illustrations were from [UnDraw](https://undraw.co/), which allows for non-commercial use.
+
 ## Wireframes
 
 The wireframes were created with [Figma](https://www.figma.com/) using desktop frame with 1440x1024 resolution and
