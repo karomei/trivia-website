@@ -30,8 +30,12 @@
             <div class="flex-row settingsTag">
                 <h1>Panelist</h1>
                 <div class="settingsViewer">
-                    <object data="./assets/images/previousbtn.svg" type="image/svg+xml" id="previous"></object>
-                <object data="./assets/images/nextbtn.svg" type="image/svg+xml" id="next"></object>
+                    <a href="" id="previous">
+                        <object data="./assets/images/previousbtn.svg" type="image/svg+xml" id="previous"></object>
+                    </a>
+                    <a href="" id="next">
+                        <object data="./assets/images/nextbtn.svg" type="image/svg+xml" id="next"></object>
+                    </a>
                 </div>
             </div>
             <div class="flex-row spaceEven">
@@ -40,58 +44,58 @@
                     <object data="./assets/images/categorycircle.svg" type="image/svg+xml" id="smPanelist"></object>
                     <object data="./assets/images/musiccircle.svg" type="image/svg+xml" id="smPanelist"></object>
                 </div>
-                <!--<div class="flex-column panelistBox">
-                    <div class="flex-row david">
-                        <div class="flex-column panelistInfo" id="davidInfo">
-                            <h1>David Mitchell</h1>
-                            <p>Witty</p>
-                            <div class="featureBar">
-                                <div id="bar1"></div>
-                            </div>
-                            <p>Common Sense</p>
-                            <div class="featureBar">
-                                <div id="bar2"></div>
-                            </div>
-                            <p>Tea lover</p>
-                            <div class="featureBar">
-                                <div id="bar3"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <div class="flex-column categoryBox">
-                    <div class="categoryInfo">
-                        <h2>Category (n/a)</h2>
-                        <div class="dropDownMenu">
-                            <object data="./assets/images/dropdownmenu.svg" type="image/svg+xml" id="arrow"></object>
-                            <div class="dropDownChoice" id="category">
-                                <p>General</p>
-                            </div>
-                        </div>
-                        <h2>Difficulty</h2>
-                        <select class="selectBox" id="levelChoice">
-                            <option value="easy">Easy</option>
-                            <option value="medium">Medium</option>
-                            <option value="hard">Hard</option>
-                        </select>
-                        <div class="dropDownMenu">
-                            <object data="./assets/images/dropdownmenu.svg" type="image/svg+xml" id="arrow"></object>
-                            <div class="dropDownChoice" id="difficulty">
-                            </div>
-                        </div>
-                        <h2>#Question</h2>
-                        <select class="selectBox" id="questionChoice">
-                            <option value="10">10</option>
-                            <option value="15">15</option>
-                            <option value="20">20</option>
-                        </select>
-                        <div class="dropDownMenu">
-                            <object data="./assets/images/dropdownmenu.svg" type="image/svg+xml" id="arrow"></object>
-                            <div class="dropDownChoice" id="questionNumber">
+                    <div class="flex-column" id="panelistBox" name="panelistBox">
+                        <div class="flex-row david">
+                            <div class="flex-column panelistInfo" id="davidInfo">
+                                <h1>David Mitchell</h1>
+                                <p>Witty</p>
+                                <div class="featureBar">
+                                    <div id="bar1"></div>
+                                </div>
+                                <p>Common Sense</p>
+                                <div class="featureBar">
+                                    <div id="bar2"></div>
+                                </div>
+                                <p>Tea lover</p>
+                                <div class="featureBar">
+                                    <div id="bar3"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="flex-column" id="categoryBox" name="categoryBox">
+                        <div class="categoryInfo">
+                            <h2>Category (n/a)</h2>
+                            <div class="dropDownMenu">
+                                <object data="./assets/images/dropdownmenu.svg" type="image/svg+xml" id="arrow"></object>
+                                <div class="dropDownChoice" id="category">
+                                    <p>General</p>
+                                </div>
+                            </div>
+                            <h2>Difficulty</h2>
+                            <select class="selectBox" id="levelChoice">
+                                <option value="easy">Easy</option>
+                                <option value="medium">Medium</option>
+                                <option value="hard">Hard</option>
+                            </select>
+                            <div class="dropDownMenu">
+                                <object data="./assets/images/dropdownmenu.svg" type="image/svg+xml" id="arrow"></object>
+                                <div class="dropDownChoice" id="difficulty">
+                                </div>
+                            </div>
+                            <h2>#Question</h2>
+                            <select class="selectBox" id="questionChoice">
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                            </select>
+                            <div class="dropDownMenu">
+                                <object data="./assets/images/dropdownmenu.svg" type="image/svg+xml" id="arrow"></object>
+                                <div class="dropDownChoice" id="questionNumber">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <div class="flex-column">
                     <object data="./assets/images/bigdavid.svg" type="image/svg+xml" id="lgPanelist"></object>
                 </div>

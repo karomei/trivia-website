@@ -7,9 +7,11 @@ let acceptingAnswer = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
 let questions = [];
 
+/**
+ * Default settings
+ */
 /**
  * Loads Settings Page, hides Game Page
  */
@@ -35,6 +37,26 @@ $("#gameScreen").click(function() {
 });
 
 /**
+ * Change between the Setting divs when clicking buttons
+ */
+$("#categoryBox").hide();
+
+function loadPanelistBox() {
+    $("#categoryBox").hide();
+    $("#panelistBox").show();
+}
+function loadCategoryBox() {
+    $("#panelistBox").hide();
+    $("#categoryBox").show();
+}
+$("#next").click(function() {
+    loadCategoryBox();
+});
+$("#previous, #play").click(function() {
+    loadPanelistBox();
+});
+
+/**
  * Fetching data from Open Trivia API (code by James Q Quick)
  */
 fetch ( "https://opentdb.com/api.php?amount=50&category=9&type=multiple")
@@ -49,13 +71,14 @@ fetch ( "https://opentdb.com/api.php?amount=50&category=9&type=multiple")
             question: retrievedQuestion.question
         };
 
-        const queryChoises = [...retrievedQuestion.incorrect_answers];
+        const answerChoises = [...retrievedQuestion.incorrect_answers];
         arrangedQuestion.answer = Math.floor(Math.random() * 3) + 1;
-        queryChoises.splice(arrangedQuestion.answer, -1, 0, 
+        answerChoises.splice(arrangedQuestion.answer -1,
+        0,
         retrievedQuestion.correct_answer);
 
-        queryChoises.forEach((choice, index) => {
-            arrangedQuestion["choice" + (index+1)] = choice;
+        answerChoises.forEach((choice, index) => {
+            arrangedQuestion["choice" + (index + 1)] = choice;
         })
 
         return arrangedQuestion;
