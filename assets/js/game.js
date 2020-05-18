@@ -1,7 +1,8 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressBarPercentage = document.getElementById("progressBarPercentage");
-
+const questionText = document.getElementById("questionCounterText");
+const highscoreText = document.getElementById("highscoreHeader");
 let currentQuestion = {};
 let acceptingAnswer = false;
 let score = 0;
@@ -90,12 +91,6 @@ fetch ( "https://opentdb.com/api.php?amount=50&category=9&type=multiple")
       console.log("error");
   });
 
-/**
- * Randoms a score between 1 to 5
- */
-randomBonusScore = () => {
-    correct_bonus = Math.floor(Math.random() *5) + 1;
-}
 const MAX_QUESTIONS = 3;
 
 startGame = () =>{
@@ -111,7 +106,8 @@ getNewQuestion = () => {
     };
 
     questionCounter++;
-
+    //Updates the question number
+    questionText.innerText = `Question ${questionCounter}`;
     //Update progress bar
     progressBarPercentage.style.width = `${((questionCounter / MAX_QUESTIONS) * 100)}%`;
 
@@ -139,11 +135,18 @@ choices.forEach(choice => {
         acceptingAnswer = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        
+        let correct_bonus = Math.floor(Math.random() *5) + 1;
+        console.log(correct_bonus);
+
         let outcome = "wrong";
             if (selectedAnswer == currentQuestion.answer) {
                 outcome = "right";
             }
+        /*if (outcome === "right") {
+            incrementScore(correct_bonus);
+            highscoreText.innerText = score;
+        } */
+
         selectedChoice.classList.add(outcome);
 
         setTimeout( () => {
@@ -152,3 +155,7 @@ choices.forEach(choice => {
         }, 1000);
     });
 });
+
+/*incrementScore = num => {
+    score += num;
+}*/
