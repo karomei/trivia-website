@@ -134,6 +134,13 @@ JQuery was used in the JS files.
 
 Sass was used instead of writing in a normal css-file, used as an extention in VS Code.
 
+# Testing
+
+1. The Email JS fetch works correctly and my email recieves the form submittions.
+2. Desktop and mobile responsiveness work.
+3. Audio autoplay works.
+4. There's a bug when going from responsive mode in mobile, to desktop and mobile again. The screen creates a bottom and slight right margin.
+
 # Credits 
 
 StackOverflow, for answering numerous of questions.
