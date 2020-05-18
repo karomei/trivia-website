@@ -93,6 +93,11 @@ The website doesn't have any legal claims over the song though and therefore if 
 # Optimization
 
 ## Graphics
+
+To be able to resize in the best way, all of the illustrations and icons in this project are SVGS. However, they don't behave as usual png/jpeg files when resized.
+Therefore, the easiest way (from what I experienced) was to give all of the svg-files a viewBox with their own dimentions and import them as object in the html code.
+Consequently, all that is needed for resizing it is changing either the width or height in the css, real neat!
+
 To optimize the svg-files, I used https://svgomg.firebaseapp.com/. Each svg-file was reduced by 9%-70%, as a result saved memory space.
 
 ## Browser compatibility
