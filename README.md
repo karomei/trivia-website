@@ -1,6 +1,7 @@
 # QI | The Interactive Trivia Game
 
 The project is based on the popular and renowned BBC panel-show, QI (Quite Interesting).
+I hope you'll enjoy! :)
 
 # UX 
 
@@ -107,7 +108,13 @@ browser globally at 58,1%. Safari: 13%, IE and Edge: 12.9%, Firefox: 5,4% and Op
     XMLHttpRequest for instance.
     * Flex: Not supported by IE 6-9, partially supported by IE 10-11 and supported by Edge.
 
-## Acknowledgements
+# Credits 
+
+StackOverflow, for answering numerous of questions.
+W3schools, the same as above.
+James Q Quick, from whom I used most of the JS trivia code from his amazing trivia tutorial.
+
+# Acknowledgements
 
 I would like to thank especially my Code Institute mentor: Precious Ijege. He was a rock throughout the project and helped with a lot of questions and gave great support.
 
