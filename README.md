@@ -142,6 +142,11 @@ JQuery was used in the JS files.
 
 Sass was used instead of writing in a normal css-file, used as an extention in VS Code.
 
+## API
+
+APIs' used were:
+EmailJS for the email modal and OpenTB for fetching trivia questions and answers.
+
 # Testing
 
 1. The Email JS fetch works correctly and my email recieves the form submittions.
