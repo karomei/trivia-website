@@ -113,11 +113,14 @@ browser globally at 58,1%. Safari: 13%, IE and Edge: 12.9%, Firefox: 5,4% and Op
     XMLHttpRequest for instance.
     * Flex: Not supported by IE 6-9, partially supported by IE 10-11 and supported by Edge.
 
+In addition, for the css, Sass was used to be able to create a good browser compatibility.
 # Technologies Used
+
+The project was created in Visual Studio Code.
 
 ## Languages
 
-This project was made in HTML5, CSS3 and JS.
+The languages used were HTML5, CSS3 and JS.
 
 ## Frameworks
 
@@ -126,6 +129,10 @@ No frameworks were used.
 ## Libraries
 
 JQuery was used in the JS files.
+
+## Style Sheets
+
+Sass was used instead of writing in a normal css-file, used as an extention in VS Code.
 
 # Credits 
 
