@@ -27,6 +27,7 @@ From there, the user stories were created and features could be added.
 
 ### Features
 
+* Modals to be able to get information and be able to send information.
 * Provide a colorful and eyecatching User Experience design.
 * Landing page animation.
 * Cursor animation.
