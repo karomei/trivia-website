@@ -77,6 +77,11 @@ Made by me in Figma: all of the icons, buttons and wave illustrations.
 
 The other illustrations were from [UnDraw](https://undraw.co/), which allows for non-commercial use.
 
+### Fonts
+
+The fonts used were Montserrat, Open Sans and Courier New.
+Montserrat and Open Sans are a great font pair and Courier New was used because of the resemblance in the original QI icon.
+
 ## Wireframes
 
 The wireframes were created with [Figma](https://www.figma.com/) using desktop frame with 1440x1024 resolution and
