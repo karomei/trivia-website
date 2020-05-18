@@ -158,6 +158,7 @@ EmailJS for the email modal and OpenTB for fetching trivia questions and answers
 2. Desktop and mobile responsiveness work.
 3. Audio autoplay works.
 4. There's a bug when going from responsive mode in mobile, to desktop and mobile again. The screen creates a bottom and slight right margin.
+5. Whenever there's a non-letter character in either the questions or answers, it turns into a numerical one.
 
 # Credits 
 
